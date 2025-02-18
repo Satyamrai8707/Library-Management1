@@ -10,9 +10,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# React build files
-client/build/
-client/node_modules/
+
 
 # Editor & OS files
 .DS_Store
