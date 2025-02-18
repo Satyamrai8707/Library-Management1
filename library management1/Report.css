@@ -1,0 +1,77 @@
+/* Report.css */
+
+.report-page {
+    font-family: 'Arial', sans-serif;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .nav-links {
+    margin-bottom: 20px;
+  }
+  
+  .nav-links button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links button:hover {
+    background-color: #2980b9;
+  }
+  
+  .report-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .report-list button {
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .report-list button:hover {
+    background-color: #2980b9;
+  }
+  
+  .logout-btn {
+    padding: 12px 25px;
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c0392b;
+  }
+  

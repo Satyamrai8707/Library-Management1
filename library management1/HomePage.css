@@ -1,0 +1,96 @@
+/* Basic styles for the homepage */
+.home-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .navigation a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-color: #ecf0f1;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin-top: 20px;
+  }
+  
+  .categories {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .category-item {
+    text-align: center;
+  }
+  
+  .category-item h3 {
+    margin-top: 10px;
+  }
+  
+  .footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
